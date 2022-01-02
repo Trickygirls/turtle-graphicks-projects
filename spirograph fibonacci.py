@@ -1,6 +1,6 @@
 #Fiboonacci Algorithm
 fibonacci_cache = {}
- 
+
 def fibonacci(n):
  #If we have cached the valued, then return it 
  if n in fibonacci_cache:
@@ -22,10 +22,7 @@ def fibonacci(n):
 n = int(input("Sizes of Poligon Fibonacci : "))
 # taking input for the length of the sides of the polygon 
 l = int(input("Length of the Poligon Fibonacci : "))
-
-
 import turtle
-
 wn = turtle.Screen()
 wn.bgcolor("black")
 wn.title("Armadillo")
@@ -45,12 +42,9 @@ def star2(fibonacci):
   for i in range(fibonacci):
     skk.forward(fibonacci) 
     skk.right(r**fibonacci) 
-
  
 count = 0
-
 while count < n: 
      star1(n%l) , star2(l%n) , star1(n+l) , star2(l+n) 
-
  
 turtle.done() 
