@@ -1,4 +1,3 @@
-#Juan Arce/(Ouroborus cataphractus)/2020 Turrialba Costa Rica
 #Fiboonacci Algorithm
 fibonacci_cache = {}
  
