@@ -1,4 +1,3 @@
-
 # import module
 import turtle
 from random import randint
