@@ -1,8 +1,3 @@
-'''
-Draw Indian Flag using Python
-Author: Ayushi Rawat
-'''
-
 import turtle
 
 flag = turtle.Turtle()
