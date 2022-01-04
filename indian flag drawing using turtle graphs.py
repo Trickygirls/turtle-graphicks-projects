@@ -20,7 +20,6 @@ for i in range(24):
 draw(0, -80)
 flag.circle(80, 360)
 
-draw(0,-90)
 
 #Green Rectangle
 flag.color('#138808')
